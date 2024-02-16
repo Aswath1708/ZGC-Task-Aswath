@@ -1,5 +1,5 @@
 import React from "react";
-import styles from './VisitUs.module.css';
+import styles from "./VisitUs.module.css";
 
 const VisitUs = () => {
   return (

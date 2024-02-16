@@ -11,11 +11,11 @@
   }
 }
 
-.imageContainer{
-    width: 80vw;
-    >img{
-        width: 100%;
-    }
+.imageContainer {
+  width: 80vw;
+  > img {
+    width: 100%;
+  }
 }
 
 .textContainer {
@@ -46,9 +46,9 @@
 }
 
 @media screen and (width<=1200px) {
-  .textContainer{
+  .textContainer {
     flex-direction: column;
-    >p{
+    > p {
       width: 100%;
       margin: 0;
     }

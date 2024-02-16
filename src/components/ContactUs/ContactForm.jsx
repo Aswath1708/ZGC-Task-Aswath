@@ -33,7 +33,8 @@ const ContactForm = () => {
           placeholder="MESSAGE"
         ></textarea>
         <button>
-          <span></span><span>SUBMIT</span>
+          <span></span>
+          <span>SUBMIT</span>
         </button>
       </form>
     </div>

@@ -20,23 +20,23 @@
   color: white;
   font-size: 16px;
   font-weight: 400;
-  >p:hover{
+  > p:hover {
     color: #c1a358;
     cursor: pointer;
   }
 }
 
 @media screen and (width<=1000px) {
-  .subFooter{
+  .subFooter {
     padding: 8% 2%;
   }
-  .footerList{
-    grid-template-columns: repeat(2,1fr);
+  .footerList {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media screen and (width<=620px) {
-  .subFooter{
+  .subFooter {
     flex-direction: column;
     padding: 5%;
     gap: 30px;
@@ -44,7 +44,7 @@
 }
 
 @media screen and (width<=350px) {
-  .footerList{
+  .footerList {
     grid-template-columns: 1fr;
   }
 }

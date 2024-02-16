@@ -43,15 +43,15 @@
   }
 }
 
-@media screen and (width<=1100px){
-  .visitUs{
+@media screen and (width<=1100px) {
+  .visitUs {
     border-bottom: 1px solid #ac8d3f;
   }
 }
 
 @media screen and (width<=500px) {
-  .visitUs{
-    >div{
+  .visitUs {
+    > div {
       flex-direction: column;
     }
   }

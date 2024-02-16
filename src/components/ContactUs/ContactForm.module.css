@@ -86,8 +86,8 @@
 }
 
 @media screen and (width<=1300px) {
-  .form{
-    >div{
+  .form {
+    > div {
       flex-direction: column;
     }
   }

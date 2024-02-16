@@ -72,22 +72,22 @@
   }
 }
 
-@media screen and (width<=600px){
-  .imageContainer{
+@media screen and (width<=600px) {
+  .imageContainer {
     display: none;
   }
-  .aboutUs{
+  .aboutUs {
     padding: 10px;
     margin: 10px;
   }
 }
 
 @media screen and (width<=1100px) {
-  .aboutUs{
+  .aboutUs {
     flex-direction: column;
   }
 
-  .imageContainer{
+  .imageContainer {
     width: 70%;
   }
 }

@@ -1,7 +1,7 @@
 .bannerBottom {
-    display: flex;
-    align-items: center;
-    padding: 4rem 8rem;
+  display: flex;
+  align-items: center;
+  padding: 4rem 8rem;
   > p:first-child {
     flex: 1;
     text-transform: uppercase;
@@ -29,10 +29,10 @@
   }
 }
 
-@media screen and (width<=800px){
-  .bannerBottom{
+@media screen and (width<=800px) {
+  .bannerBottom {
     padding: 2rem;
-    >p{
+    > p {
       flex: auto;
     }
   }

@@ -12,8 +12,8 @@ const SubFooter = () => {
           <img src={logo} alt="leParque" />
         </div>
         <p>
-          Lorem Ipsum is simply dummy text of the <br /> printing and typesetting
-          industry.
+          Lorem Ipsum is simply dummy text of the <br /> printing and
+          typesetting industry.
         </p>
       </div>
       <div className={styles.footerList}>

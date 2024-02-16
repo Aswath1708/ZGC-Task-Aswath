@@ -1,65 +1,64 @@
-.navBar{
+.navBar {
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid #1f6a5050;
+  > ul {
     display: flex;
-    justify-content: center;
-    border-bottom: 2px solid #1f6a5050;
-    >ul{
-        display: flex;
-        align-items: center;
-        list-style: none;
-        justify-content: space-around;
-        width: 60%;
-        >li{
-            font-size: 20px;
-            color: var(--zgc-green);
-            font-weight: 400;
-            padding: 20px;
-        }
-        >li:hover{
-            color: #c1a358;
-            cursor: pointer;
-        }
+    align-items: center;
+    list-style: none;
+    justify-content: space-around;
+    width: 60%;
+    > li {
+      font-size: 20px;
+      color: var(--zgc-green);
+      font-weight: 400;
+      padding: 20px;
     }
+    > li:hover {
+      color: #c1a358;
+      cursor: pointer;
+    }
+  }
 }
 
-.logoContainer{
-    height: 31px;
-    width: 192px;
-    >img{
-        width: 100%;
-    }
+.logoContainer {
+  height: 31px;
+  width: 192px;
+  > img {
+    width: 100%;
+  }
 }
-
 
 @media screen and (width<=1200px) {
-    .navBar{
-        >ul{
-
-            >li{
-                padding:20px 5px ;
-            }
-        }
+  .navBar {
+    > ul {
+      > li {
+        padding: 20px 5px;
+      }
     }
+  }
 }
 
 @media screen and (width<=910px) {
-    .navBar{
-        >ul{
-            width: 100%;
-            justify-content: space-between;
-        }
+  .navBar {
+    > ul {
+      width: 100%;
+      justify-content: space-between;
     }
+  }
 }
 
-@media screen and (width<=600px){
-    .navBar{
-        >ul{
-            >li{
-                font-size: 12px;
-            }
-        }
+@media screen and (width<=600px) {
+  .navBar {
+    > ul {
+      justify-content: space-evenly;
+      > li {
+        font-size: 12px;
+      }
     }
-    .logoContainer{
-        width: 100px;
-        height: 20px;
-    }
+  }
+  .logoContainer {
+    width: 100px;
+    height: 20px;
+  }
 }
