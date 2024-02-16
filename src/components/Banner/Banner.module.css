@@ -1,0 +1,14 @@
+.banner {
+  height: 110vh;
+  background: url("../../assets/home.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-bottom-right-radius: 320px;
+}
+
+.burger {
+  position: absolute;
+  left: 50%;
+  bottom: 15%;
+}

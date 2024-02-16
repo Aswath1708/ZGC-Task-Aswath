@@ -1,0 +1,32 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 5%;
+    border-top: 1px solid #ffffff66;
+    >p{
+        font-size: 16px;
+        font-weight: 400;
+        color: white;
+        opacity: 50%;
+    }
+}
+
+.mediaLinks{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    >div{
+        width: 12px;
+        height: 12px;
+        padding: 5px;
+        border: 1px solid white;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    >img{
+        width: 100%;
+
+    }
+}

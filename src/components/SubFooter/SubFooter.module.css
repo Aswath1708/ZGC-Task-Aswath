@@ -1,0 +1,27 @@
+.subFooter {
+  display: flex;
+  padding: 8%;
+  justify-content: space-between;
+}
+
+.logoContainer {
+  > p {
+    font-size: 16px;
+    margin-top: 20px;
+    color: #fff;
+    font-weight: 400;
+  }
+}
+
+.footerList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px 0;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  >p:hover{
+    color: #c1a358;
+    cursor: pointer;
+  }
+}

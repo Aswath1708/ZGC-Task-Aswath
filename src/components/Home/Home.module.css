@@ -1,0 +1,5 @@
+.home{
+    background: url("../../assets//bannerBottom.jpg"),var(--zgc-green);
+    background-blend-mode: multiply;
+    background-size: contain;
+}

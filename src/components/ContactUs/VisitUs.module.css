@@ -1,0 +1,44 @@
+.visitUs {
+  flex: 1;
+  padding: 140px;
+  color: #fff;
+  border-right: 1px solid #ac8d3f;
+  span {
+    color: #ac8d3f;
+  }
+  p {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  > div {
+    display: flex;
+    gap: 4rem;
+    margin-bottom: 80px;
+    span {
+      font-size: 16px;
+    }
+  }
+
+  > h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 120px;
+    > span {
+      font-size: 48px;
+      font-weight: 400;
+    }
+  }
+  > p {
+    margin-bottom: 30px;
+    > span {
+      font-size: 16px;
+    }
+  }
+}

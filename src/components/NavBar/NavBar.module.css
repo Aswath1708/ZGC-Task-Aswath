@@ -1,0 +1,29 @@
+.navBar{
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #1f6a5050;
+    >ul{
+        display: flex;
+        align-items: center;
+        list-style: none;
+        justify-content: space-around;
+        width: 800px;
+        >li{
+            font-size: 20px;
+            color: var(--zgc-green);
+            font-weight: 400;
+            padding: 20px;
+        }
+        >li:hover{
+            color: #c1a358;
+        }
+    }
+}
+
+.logoContainer{
+    height: 31px;
+    width: 192px;
+    >img{
+        width: 100%;
+    }
+}

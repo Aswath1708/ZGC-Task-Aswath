@@ -1,0 +1,73 @@
+.aboutUs {
+  display: flex;
+  gap: 4rem;
+  margin: 100px 120px 120px;
+  border-bottom-right-radius: 10px;
+  border: 2px solid #ac8d3f80;
+  padding: 2rem;
+}
+
+.imageContainer {
+  width: 200vw;
+  > img {
+    width: 100%;
+  }
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  > h2 {
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 0;
+    font-size: 20px;
+    font-weight: 500;
+    color: #1f6a50;
+    line-height: 46px;
+    > span {
+      font-size: 36px;
+      color: #c1a358;
+      line-height: 26px;
+    }
+  }
+  > p {
+    margin-bottom: 2rem;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+  }
+  > button {
+    margin-top: 2rem;
+    padding: 1rem 3rem;
+    width: fit-content;
+    color: #c1a358;
+    border: 2px solid #c1a358;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: transparent;
+    position: relative;
+    overflow: hidden;
+    transition: 0.8s;
+    > span {
+      width: 0;
+      height: 100%;
+      border-bottom-right-radius: 180px;
+      bottom: 0;
+      left: -25%;
+      background-color: #c1a358;
+      position: absolute;
+      transition: 0.8s;
+      z-index: -1;
+    }
+  }
+  > button:hover {
+    color: #000;
+    > span {
+      width: 125%;
+      left: 0;
+    }
+  }
+}
