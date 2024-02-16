@@ -71,3 +71,13 @@
     }
   }
 }
+
+@media screen and (width<=600px){
+  .imageContainer{
+    display: none;
+  }
+  .aboutUs{
+    padding: 10px;
+    margin: 10px;
+  }
+}

@@ -22,3 +22,9 @@ body {
 .footerSection{
   background-color: #1f6a50;
 }
+
+@media screen and (width<=600px) {
+  .contactUs{
+    flex-direction: column;
+  }
+}

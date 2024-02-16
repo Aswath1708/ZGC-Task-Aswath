@@ -1,6 +1,6 @@
 .contactForm {
   flex: 1;
-  padding: 10vw;
+  padding: 10%;
   input,
   textarea {
     background-color: transparent;
@@ -81,6 +81,14 @@
     > span:first-child {
       width: 125%;
       left: 0;
+    }
+  }
+}
+
+@media screen and (width<=1300px) {
+  .form{
+    >div{
+      flex-direction: column;
     }
   }
 }

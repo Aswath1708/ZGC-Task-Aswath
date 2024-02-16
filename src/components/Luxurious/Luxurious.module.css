@@ -1,5 +1,5 @@
 .luxurious {
-  padding: 90px 140px;
+  padding: 90px 10%;
   background-color: #1a1a1a;
   > p {
     text-transform: uppercase;
@@ -42,5 +42,11 @@
     font-size: 16px;
     line-height: 20px;
     font-weight: 300;
+  }
+}
+
+@media screen and (width<=1200px) {
+  .textContainer{
+    flex-direction: column;
   }
 }
