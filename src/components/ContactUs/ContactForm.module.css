@@ -1,6 +1,6 @@
 .contactForm {
   flex: 1;
-  padding: 140px;
+  padding: 10vw;
   input,
   textarea {
     background-color: transparent;
@@ -19,7 +19,13 @@
   > h2 {
     font-size: 20px;
     font-weight: 300;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 10vh;
+    display: flex;
+    flex-direction: column;
     > span {
+      color: #ac8d3f;
       font-size: 48px;
       font-weight: 400;
     }

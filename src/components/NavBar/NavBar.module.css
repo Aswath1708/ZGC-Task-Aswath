@@ -16,6 +16,7 @@
         }
         >li:hover{
             color: #c1a358;
+            cursor: pointer;
         }
     }
 }
