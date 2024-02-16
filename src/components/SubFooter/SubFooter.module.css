@@ -25,3 +25,26 @@
     cursor: pointer;
   }
 }
+
+@media screen and (width<=1000px) {
+  .subFooter{
+    padding: 8% 2%;
+  }
+  .footerList{
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+@media screen and (width<=620px) {
+  .subFooter{
+    flex-direction: column;
+    padding: 5%;
+    gap: 30px;
+  }
+}
+
+@media screen and (width<=350px) {
+  .footerList{
+    grid-template-columns: 1fr;
+  }
+}

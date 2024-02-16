@@ -30,3 +30,10 @@
 
     }
 }
+
+@media screen and (width<=620px){
+    .footer{
+        flex-direction: column;
+        gap: 30px;
+    }
+}

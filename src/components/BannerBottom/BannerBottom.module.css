@@ -28,3 +28,12 @@
     }
   }
 }
+
+@media screen and (width<=800px){
+  .bannerBottom{
+    padding: 2rem;
+    >p{
+      flex: auto;
+    }
+  }
+}

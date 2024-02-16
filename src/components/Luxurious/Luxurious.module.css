@@ -48,5 +48,9 @@
 @media screen and (width<=1200px) {
   .textContainer{
     flex-direction: column;
+    >p{
+      width: 100%;
+      margin: 0;
+    }
   }
 }
